@@ -1,0 +1,406 @@
+ <!DOCTYPE html>
+<html>
+<title>SweetMittens</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+body
+{ background-color: #ffd3d4;
+
+margin: 0;
+  font-family: "Times New Roman", Georgia, Serif;
+  color: #606060;
+}
+  h1, h2, h3, h4, h5, h6 {
+  font-family: "Playfair Display";
+  letter-spacing: 4px;
+ 
+}
+
+.topbar a{
+text-decoration: none;
+color: black;
+   
+}
+
+
+.topbar {
+  background-color: white;
+  width:100%;
+  box-shadow: 0px 2px 3px #C2C6C8;
+  letter-spacing:4px;
+  height: 100%;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  padding: 10px;
+  float: left;
+
+}
+
+.topbar  a:hover, .dropdown:hover .dropbtn{
+  background-color: lightgrey;
+
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+ 
+  position: top;
+}
+
+.dropdown .dropbtn {  
+  border: none;
+  outline: none;
+  color: black;
+  padding: inherit;
+  background-color: inherit;
+  font-family: inherit;
+  letter-spacing: inherit;
+  padding: 10px;
+  font-size: inherit;
+  margin: 0;
+ 
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+  font-family: inherit;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+
+
+
+
+ .row:after {
+    content: "";
+    display: table;
+    clear: both;
+
+ }
+
+ .column {
+  float: left;
+   padding-left: 20px;
+   padding-right: 20px;
+  height: 100%;
+
+}
+
+
+
+
+
+
+.about p{
+
+line-height: 30px;
+font-size: 20px;
+
+}
+
+.cakes , .cupcakes , .browniesanddonuts{
+font-size: 15px;
+float: left;
+  overflow: hidden;
+  padding-top: 100px;
+
+
+}
+
+.container{
+padding-left: 15%;
+padding-right: 15%;
+}
+
+</style>
+
+<body>
+
+<div class="topbar" style="background-color: white"  >
+
+<div class="row" >
+<div class="column " style="width: 70%;">
+<a href="#home" class="column" style="padding: 10px" >SweetMittens Home</a>
+</div>
+    <div class="column " style="width: 20%; " >
+  <a href="#about" class="column" style="padding: 10px;" >About</a>
+      <!--<a href="#menu" class="drop" style="padding: 10px">Menu</a> -->
+    <div class="dropdown">
+    <button class="dropbtn">Menu
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="#cakes">Cakes</a>
+      <a href="#cupcakes">Cupcakes</a>
+      <a href="#brownies&donuts">Brownies</a>
+      <a href="#brownies&donuts">Donuts</a>
+   
+  </div>
+      </div>
+      <a href="#contact" class="column" style="padding: 10px;">Contact</a>
+      </div>
+    </div>
+ </div>
+
+<div id="home">
+  <img class="logo" src="images/logo.jpg" width="100%" height="100%" >
+     
+
+    
+    <a href="https://www.instagram.com/sweetmittenbakery/" target="_blank">
+    <img src="images/ig.png" width="40px" height="40px" style="position: absolute; bottom: 50px; right: 40px">
+    </a>
+   
+
+</div>
+
+
+
+ <div class="container">
+
+
+<div class="about" style="background-color: white; width: 100%; " id="about">
+  <div class="row" style="padding-top: 10%; padding-bottom: 100px; padding-left: 0px; height: 550px; ">
+  <div class="column left" style="background-color:white; width: 47%; height: 100%;  ">
+  <img class="img1" src="images/pp.jpg" width=100% height="550px" style="padding-top: 20px; padding-left: 10px" >
+  </div>
+  <div class="column right" style="background-color:white; width: 45%; text-align: left;">
+    <h1>About SweetMittens</h1>
+    <br>
+    <h4>By Sakshi Bhat</h4>
+   
+    <p>I am a final year hotel management student with a dream to open my own dessert bar. Bakery and patisserie has always had a special place in my life and I wish to turn my passion into a successful career.</p>
+    <p>Sweet Mitten Bakery is a home run business that strives to give its customers quality desserts at reasonable prices. We put our love and care into every order we recieve and aim on getting every single detail right.❤️
+    <p>
+  </div>
+</div>
+</div>
+
+<hr>
+
+
+
+<div class="cakes" style="background-color: white; width: 100% " id="cakes">
+  <div class="row" style=" padding-bottom: 100px; padding-left: 0px; height: 550px">
+  <div class="column left" style="background-color:white; width: 47%; height: 100%">
+  <h1 style="text-align: center;">Cakes
+  <h3 style="text-align: center;">1/2 Kg</h3>
+  </h1>
+  <br>
+  <div class="column" style="text-align: left; width: 70%" >
+      <h3>Chocolate Cream</h3>
+      &nbsp
+   
+      <h3>Chocolate Truffle</h3>
+      &nbsp
+   
+      <h3>Salted Caramel</h3>
+      &nbsp
+   
+      <h3>Cookies And Cream</h3>
+      &nbsp
+
+      <h3>Mocha</h3>
+       &nbsp
+
+      <h3>Butterscotch</h3>
+      <p>_________________________________________________</p>
+
+      </div>
+      <div class="column" style="text-align: left; width:10%">
+ 
+      <h3>350</h3><br>
+      <h3>450</h3><br>
+      <h3>500</h3><br>
+      <h3>400</h3><br>
+      <h3>400</h3><br>
+      <h3>400</h3><br>
+     
+      </div>
+      </div>
+      <div class="column right" style="background-color:white; width: 45%; height: 100% ">
+      <img class="menuimg"  src="images/cake.jpg" width=100% height=100% style="padding-top: 20px" >
+      </div>
+    </div>
+</div>
+
+<hr>
+
+<div class="cupcakes" style="background-color: white; width: 100% " id="cupcakes">
+  <div class="row" style=" padding-bottom: 100px; padding-left: 0px; height: 550px">
+  <div class="column" style="background-color:white; width: 45%; height: 100%;">
+  <img class="menuimg"  src="images/cupcake.jpg" width=100% height="100%" style="padding-top: 20px; padding-left: 10px" >
+ 
+      </div>
+      <div class="column right" style="background-color:white; width: 47%; height: 100% ">
+      <h1 style="text-align: center;">Cupakes        
+      <h3 style="text-align: center;">Box of 6</h3>
+      </h1>
+  <div class="column" style="text-align: left; width: 70%" >
+      <h3>Classic Chocolate</h3>
+      &nbsp
+   
+      <h3>Salted Caramel</h3>
+      &nbsp
+   
+      <h3>Crunchy Oreo</h3>
+      &nbsp
+
+      <h3>Brownie Cups</h3>
+      &nbsp  
+
+      <p>_________________________________________________</p>
+
+      </div>
+      <div class="column" style="text-align: left; width: 10%">
+       
+      <h3>300</h3><br>
+      <h3>300</h3><br>
+      <h3>300</h3><br>
+      <h3>300</h3><br1>
+     
+      </div>
+
+      </div>
+    </div>
+</div>      
+
+<hr>
+
+<div class="browniesanddonuts" style="background-color: white; width: 100% " id="brownies&donuts">
+  <div class="row" style=" padding-bottom: 100px;padding-left: 0px; height: 550px">
+  <div class="column" style="background-color:white; width: 47%; height: 100%">
+ 
+  <div class="row" style="text-align: left;">
+  <h1 style="text-align: center;">Brownies
+  <h3 style="text-align: center;">Pieces 4/9</h3>
+  </h1>
+  <br1>
+  <div class="column" style="text-align: left; width: 70%;">
+  <h3>Classic Chocolate Brownie</h3>
+      &nbsp   
+
+      <h3>Walnut Brownie</h3>
+      &nbsp
+    </div>
+
+    <div class="column" style="text-align: left; width: 10%; ">
+      
+      <h3>200/450</h3><br>
+      <h3>200/550</h3><br>
+      </div>
+
+    </div>
+
+    <div class="row" style="text-align: left;">
+    <h1 style="text-align: center;">Donuts
+  <h3 style="text-align: center;">Pieces 4/9</h3>
+  </h1>
+  <br1>
+    <div class="column" style="text-align: left; width: 70%; ">
+      <h3>Dark Chocolate Glazed</h3>
+      &nbsp
+   
+      <h3>Chocolate Ganache</h3>
+      &nbsp
+
+      <p>_________________________________________________</p>
+      </div>
+     
+      <div class="column" style="text-align: left; width: 10%; ">
+      
+      <h3>200/450</h3><br>
+      <h3>200/550</h3><br>
+      </div>
+
+      </div>
+      </div>
+      <div class="column" style="background-color:white; width: 45%; height: 100% ">
+      <img class="menuimg"  src="images/brownu.jpg" width=100% height=100% style="padding-top: 20px" >
+      </div>
+    </div>
+</div>      
+<hr>
+
+<div class="contact" style="background-color: white; width: 100%; " id="contact">
+  <div class="row" style="padding-top: 100px; padding-bottom: 100px; padding-left: 10px; height: 550px;">
+  <div class="column" style="background-color:white; width: 45%; height: 100%; ">
+ 
+  <h1>Sweet Mitten's Location</h1>
+
+<div id="googleMap" style="padding-top: 38px" ></div>
+
+
+
+<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3108.1901675497925!2d72.9654017601868!3d19.18909021879877!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b91f83e89899%3A0x1f2753da10ca74ef!2sKrishna%20Smruti!5e0!3m2!1sen!2sin!4v1606485602966!5m2!1sen!2sin" width="500" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+
+
+  </div>
+
+  <script >
+  function btnsubmit()
+  {    console.log("entered");
+      var pno = document.getElementById('phno').value;
+      if(pno.length!=10 )
+      {
+         document.getElementById('perror').innerHTML= 'Invalid';
+        return false;      
+      }
+
+  }
+
+</script>
+   
+  <div class="column" style="background-color:white; width: 47%; text-align: left;">
+    <h1>Order</h1>
+    <br>
+    
+     <p class=""><b>We also take custom orders!</b></p>
+
+      <p>phone no: +91 70450 00925</p>
+      <p>email: sakshibhat2000@gmail.com</p>
+    
+      <p class=""><b>Send your order details and you'll get the confirmation on whatsapp.</b></p>
+      
+      <p>Payment via GPAY or Cash</p>
+      <form  target="_blank" >
+      <p><input id="name" type="text" placeholder="Name" required name="name" oninvalid="this.setCustomValidity('Please Enter valid name')" ></p>
+      <p><input id="address" type="text" placeholder="Address" required name="address"></p>
+      <p><input id="cake" type="text" placeholder="Item description" required name="item"></p>
+      <p><input id="phno" type="text" placeholder="Whatsapp no" required name="phno" > <span  id="perror"></span></p>
+      <p><input id="date" type="datetime-local" placeholder="Date and time" required name="datetime" value="2020-11-16T20:00"></p>
+      <p><input id="message" type="text" placeholder="Message \ Special requirements" required name="message"></p>
+      <p><button onclick= "btnsubmit()"  id="submit">SEND MESSAGE</button></p>
+      </form>
+  </div>
+
+</div>
+</div>
+<hr>
+</div>
+
+</body>
